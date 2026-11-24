@@ -1,0 +1,107 @@
+name: Bug report
+description: Something in a TW Farms map or mod isn't working right
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to tell us. The more you fill in, the quicker we can fix it.
+        Quick question rather than a bug? Our [Discord](https://discord.com/invite/3nDMbYKasd) is faster.
+
+  - type: input
+    id: item
+    attributes:
+      label: Which map or mod?
+      placeholder: e.g. Dover Mills 16x, TW Farm Productions, TW Dairy
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Shown in the in-game mod list or on the download page.
+      placeholder: e.g. 1.3.0.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Single player or multiplayer?
+      options:
+        - Single player
+        - Multiplayer (I'm hosting)
+        - Multiplayer (dedicated server)
+        - Multiplayer (I joined someone)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Where do you play?
+      options:
+        - PC (GIANTS / Steam / Epic)
+        - PC (Microsoft Store / Game Pass)
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: save
+    attributes:
+      label: New career or existing save?
+      options:
+        - New career
+        - Existing save
+        - Both
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What went wrong, and what did you expect to happen instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we make it happen?
+      description: Step by step, so we can see it ourselves. Where on the map, which machine, what you clicked.
+      placeholder: |
+        1. Start a new career on the starter farm
+        2. Drive to the grain sell point
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: mods
+    attributes:
+      label: Other mods running
+      description: Problems often come from two mods clashing. A list, or "none".
+    validations:
+      required: false
+
+  - type: textarea
+    id: log
+    attributes:
+      label: log.txt
+      description: |
+        This helps us more than anything else. Find it at Documents\My Games\FarmingSimulator2025\log.txt.
+        Load the game until the problem happens, quit, then drag the file into this box.
+    validations:
+      required: false
+
+  - type: textarea
+    id: pictures
+    attributes:
+      label: Screenshots or video
+      description: Drag them in here if you have any.
+    validations:
+      required: false

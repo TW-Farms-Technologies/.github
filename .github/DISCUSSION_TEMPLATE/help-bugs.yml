@@ -1,0 +1,90 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for asking. The more you fill in, the quicker we can help.
+        Need an answer fast? Our [Discord](https://discord.com/invite/3nDMbYKasd) is quicker.
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What do you need?
+      options:
+        - Help with something
+        - Something's broken (a bug)
+    validations:
+      required: true
+
+  - type: input
+    id: item
+    attributes:
+      label: Which map or mod?
+      placeholder: e.g. Dover Mills 16x, TW Farm Productions, TW Dairy
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Shown in the in-game mod list or on the download page. Leave blank if you're not sure.
+      placeholder: e.g. 1.3.0.0
+    validations:
+      required: false
+
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Single player or multiplayer?
+      options:
+        - Single player
+        - Multiplayer (I'm hosting)
+        - Multiplayer (dedicated server)
+        - Multiplayer (I joined someone)
+    validations:
+      required: false
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Where do you play?
+      options:
+        - PC (GIANTS / Steam / Epic)
+        - PC (Microsoft Store / Game Pass)
+        - Other
+    validations:
+      required: false
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What's going on?
+      description: For a bug, say what went wrong, what you expected, and the steps to make it happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: mods
+    attributes:
+      label: Other mods running
+      description: Problems often come from two mods clashing. A list, or "none".
+    validations:
+      required: false
+
+  - type: textarea
+    id: log
+    attributes:
+      label: log.txt (for bugs)
+      description: |
+        This helps us more than anything else. Find it at Documents\My Games\FarmingSimulator2025\log.txt.
+        Load the game until the problem happens, quit, then drag the file into this box.
+    validations:
+      required: false
+
+  - type: textarea
+    id: pictures
+    attributes:
+      label: Screenshots or video
+      description: Drag them in here if you have any.
+    validations:
+      required: false
