@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://twfarms.uk">twfarms.uk</a> ·
-  <a href="https://discord.gg/FsuBuQB3Zy">Discord</a> ·
+  <a href="https://discord.com/invite/3nDMbYKasd">Discord</a> ·
   <a href="https://www.youtube.com/@TW_Farms">YouTube</a> ·
   <a href="https://x.com/TWFarmsOfficial">X</a> ·
   <a href="https://www.instagram.com/tw__farms">Instagram</a>
@@ -28,7 +28,7 @@ Our FS25 maps and mods are **always free**, and you download them from [twfarms.
 - **TW Dairy**: a dairy with its own milk trigger and rotary parlour
 - **TW British Asset Pack**: hedges, walls, signs and road markings for UK maps
 
-Found a bug? Tell us in [Discord](https://discord.gg/FsuBuQB3Zy); that's where we pick them up fastest.
+Found a bug? Tell us in [Discord](https://discord.com/invite/3nDMbYKasd); that's where we pick them up fastest.
 
 ### 🛠️ What we build
 
