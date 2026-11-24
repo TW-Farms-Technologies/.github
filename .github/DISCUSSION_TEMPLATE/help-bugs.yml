@@ -3,7 +3,7 @@ body:
     attributes:
       value: |
         Thanks for asking. The more you fill in, the quicker we can help.
-        Need an answer fast? Our [Discord](https://discord.com/invite/3nDMbYKasd) is quicker.
+        Need an answer fast? Our [Discord](https://discord.gg/FsuBuQB3Zy) is quicker.
 
   - type: dropdown
     id: kind

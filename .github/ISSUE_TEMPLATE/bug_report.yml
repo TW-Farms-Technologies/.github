@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to tell us. The more you fill in, the quicker we can fix it.
-        Quick question rather than a bug? Our [Discord](https://discord.com/invite/3nDMbYKasd) is faster.
+        Quick question rather than a bug? Our [Discord](https://discord.gg/FsuBuQB3Zy) is faster.
 
   - type: input
     id: item
